@@ -21,6 +21,14 @@ Then you can search.
    * @return {Object}
    */
   var results = VimeoApi.videos(query, args)
+
+  /**
+   * Search videos for specified channel.
+   * @param  {String} channelId
+   * @param  {Object} overwriteParams
+   * @return {Object}
+   */
+  var channelVideos = VimeoApi.channelsVideos(channelId, overwriteParams)
 ```
 
 # Next
