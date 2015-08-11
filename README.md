@@ -21,6 +21,14 @@ Then you can search.
    * @return {Object}
    */
   var results = VimeoApi.videos(query, args)
+
+  /**
+   * Search videos for specified channel.
+   * @param  {String} channelId
+   * @param  {Object} overwriteParams
+   * @return {Object}
+   */
+  var channelVideos = VimeoApi.channelsVideos(channelId, overwriteParams)
 ```
 
 # Next
@@ -31,3 +39,5 @@ Then you can search.
 # Contribute
 
 This is a working progress... feel free to submit a pull request and contribute
+
+Aug 11, 2015 -- Added channelsVideos method in 'vimeo-video-search.js'
