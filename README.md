@@ -31,3 +31,5 @@ Then you can search.
 # Contribute
 
 This is a working progress... feel free to submit a pull request and contribute
+
+Aug 11, 2015 -- Added channelsVideos method in 'vimeo-video-search.js'
